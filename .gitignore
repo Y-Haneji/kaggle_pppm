@@ -1,0 +1,6 @@
+input/
+.history/
+.ipynb_checkpoints/
+output/
+protos/
+exps/wandb/
