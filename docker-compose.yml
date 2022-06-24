@@ -1,0 +1,10 @@
+services:
+  bash:
+    build: .
+    ports:
+      - 8888:8888
+    volumes:
+      - .:/tmp/working
+    image: kaggle-pppm
+    command: /bin/bash
+    runtime: nvidia
