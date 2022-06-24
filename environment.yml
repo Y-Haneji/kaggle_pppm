@@ -1,0 +1,38 @@
+name: py38_pppm
+channels:
+  - https://conda.anaconda.org/conda-forge/osx-arm64
+  - https://conda.anaconda.org/conda-forge/noarch
+  # - aibox
+dependencies:
+  # common package
+  - python=3.8
+  - numpy
+  - scipy
+  - pandas
+  - jupyter
+  - jupyterlab
+  - notebook
+  - matplotlib
+  - seaborn
+  - opencv
+  - pillow
+  - lightgbm
+  - scikit-learn
+  - pytorch
+  - timm
+  - albumentations
+  - optuna
+  - tqdm
+  - psutil
+  - joblib
+  - line_profiler
+  - memory_profiler
+  - pip
+  - pip:
+    - kaggle
+  # specified package
+  - transformers=4.18.0
+  - tokenizers=0.12.1
+  - sentencepiece
+  # - iterative-stratification
+  # - protobuf=3.21.1
